@@ -6,15 +6,12 @@ using namespace std;
 
 
 int main() {
-	Home(arr, 2);
-	Human s2();
-	Human arr[2] = {s1 ,s2 };
-	arr->Print();
-
-
-
-
-
-
-
+	Human s1("wrfr","dvfb",23);
+	Human s2("jxnk","klgbngl",56);
+	Human arr[2] = {s1,s2 };
+	Apartment d(arr, 2, 200);
+	Apartment v(arr, 2, 300);
+	Apartment arr1[2] = { d,v };
+	Home a(arr1, 2);   
+	a.Print();
 }
